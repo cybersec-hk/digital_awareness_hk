@@ -1,0 +1,24 @@
+{
+  "name": "digital_awareness_hk",
+  "description": "IT文宣: 香港人數碼安全手冊",
+  "devDependencies": {
+    "doctoc": "^1.4.0"
+  },
+  "scripts": {
+    "doc": "doctoc . --notitle --github && git add *.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybersec-hk/digital_awareness_hk.git"
+  },
+  "keywords": [
+    "digital",
+    "awareness",
+    "數碼安全"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cybersec-hk/digital_awareness_hk/issues"
+  },
+  "homepage": "https://github.com/cybersec-hk/digital_awareness_hk#readme"
+}
