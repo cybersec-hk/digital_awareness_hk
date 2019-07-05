@@ -399,7 +399,7 @@ Telegram可以設定用戶名稱代替電話號碼增加聯絡人，適合與不
 8. 關閉 Link Previews
     - `Setting>>Privacy and Security>>Data Settings`，關閉最下面嘅 `Link Previews` 功能。程式自動預覽 Link 有可能會係無留意嘅情況下，被精心構造嘅 XSS（Cross-site Scripting）跨網站指令碼漏洞追蹤到用家嘅個人資訊。
 9. 使用 Proxy 服務
-    - Telegram 自建有 Proxy 功能，既可使用 Telegram 獨有嘅 MTProto 協議，亦都可使用 Socks5 協議。用家可以選擇購買 NordVPN、ExpressVPN 等匿名 VPN 供應商嘅服務，佢哋都支持 Socks5 協議進行 Proxy，有相關 IT 技能嘅用家，推薦自行 Set 伺服器架設 Proxy 服務，架設服務呢個會係後面嘅內容當中詳細講解。
+    - Telegram 自建有 Proxy 功能，既可使用 Telegram 獨有嘅 MTProto 協議，亦都可使用 Socks5 協議。用家可以選擇購買 NordVPN、ProtonVPN 等匿名 VPN 供應商嘅服務，佢哋都支持 Socks5 協議進行 Proxy，有相關 IT 技能嘅用家，推薦自行 Set 伺服器架設 Proxy 服務，架設服務呢個會係後面嘅內容當中詳細講解。
 
 ### Wire
 
@@ -490,5 +490,65 @@ Facebook Messenger 通訊記錄中的相片及影片不能被主動清除，只�
 - [Electronic Frontier Foundation (英文)](https://www.eff.org/)
 - [DuckDuckGo Privacy Blog (英文)](https://spreadprivacy.com/)
 - [Reddit /r/privacy/ (英文)](https://www.reddit.com/r/privacy/)
+
+## 建議或聯絡我們
+你可以在Issues聯絡我們
+有需要的話請使用PGP加密
+我們的Public Key如下：
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=CyuU
+-----END PGP PUBLIC KEY BLOCK-----
+
+```
 
 ## [貢獻指南](https://www.contribution-guide.org/)
