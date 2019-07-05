@@ -189,6 +189,8 @@
 
 ### ❗️如果你沒有辦法拖延或是被突然截停…
 
+<details><summary>閱讀更多…</summary>
+
 1. 立即鎖上手機
 
     **iOS**：`緊按電源和音量鍵，緊急停用TouchID或FaceID(iPhone 6前則是連按電源鍵5次)`
@@ -207,6 +209,8 @@
 
     並沒有錯誤輸入密碼會清除的功能。必要時關機。
 
+</details>
+
 ### 6. 事後處理
 1. 通知你的朋友、同路人你的情況，叫他們立即清除數碼足跡（詳看下文）
 2. 從數碼世界消失（詳看下文）
@@ -224,6 +228,8 @@
 本文譯自德州大學訊息安全中心的[指引](https://security.utexas.edu/handheld-hardening-checklists/ios)及[DuckDuckGo Security Blog](https://spreadprivacy.com/iphone-privacy-tips/)並加以修改。
 
 ### 基本篇
+
+<details><summary>閱讀更多…</summary>
 
 1. 更新到最新的iOS版本 **（注意：唔係Beta或開發
 版本）**
@@ -250,16 +256,24 @@
 19. 如果你沒有使用VPN，建議安裝[1.1.1.1 App](https://1.1.1.1/)
 20. 考慮使用有信譽的VPN服務
 
+</details>
+
 #### 進階篇
+
+<details><summary>閱讀更多…</summary>
 
 1. 根據[Apple Transparency Report](https://www.apple.com/legal/transparency/hk.html)，香港政府在2018年7月至2018年12月528次要求Apple交出數據，而當中Apple有70.8%提供了最少部份資料。iOS只有Apple，請自行判斷。
 2. 留意：單靠密碼和全手機加密未足以保障，以色列鑑証公司Cellbrite開發了一個名為UFED的工具可破解各個最新的電話。[原文](https://www.techradar.com/news/new-law-enforcement-hacking-tool-can-unlock-most-iphone-android-handsets)，[Cellebrite UFED Premium廣告](https://www.cellebrite.com/en/ufed-premium/)。如果你被執法機構要求解鎖，**請務必拒絕並設法清除資料**（不小心地輸入十次錯誤密碼）
+
+</details>
 
 ## 你現在應該立即加強你的電話保安: Android篇
 
 本文譯自德州大學訊息安全中心的[指引](https://security.utexas.edu/handheld-hardening-checklists/android)及[DuckDuckGo Security Blog](https://spreadprivacy.com/android-privacy-tips/)並加以修改。
 
 ### 基本篇
+
+<details><summary>閱讀更多…</summary>
 
 1. 大陸品牌全部不了，包括但不限於：華為，小米，中興，步步高（Oppo），魅族。[更多](https://en.wikipedia.org/wiki/Mobile_phone_industry_in_China#Major_mobile_phone_manufacturers)
 2. 更新到最新的OS版本。
@@ -274,10 +288,17 @@
 11. 關閉定位服務
 12. 關閉USB除錯功能
 
+</details>
+
 ### 進階篇
+
+<details><summary>閱讀更多…</summary>
 
 1. 考慮使用有信譽的VPN服務
 2. 避免使用Google的服務。根據[Google Transparency Report](https://transparencyreport.google.com/user-data/overview?t=table&user_requests_report_period=series:requests,accounts;authority:HK;time:&lu=user_requests_report_period)，香港政府在2018年7月至2018年12月87次要求Google交出數據，而當中Google有52%提供了最少部份資料。
+
+</details>
+
 
 ## 你現在應該立即加強你的電腦保安: Windows篇
 
@@ -289,15 +310,18 @@
 
 ### 基本檢查
 
+<details><summary>閱讀更多…</summary>
+
 1. 你是否使用正版的Windows，係從官方授權方式下載，唔係淘寶買key、或安裝過免啟用等等破解程式？
     - 如果唔係，你必須全面清除電腦，並安裝正版、無破解的系統
 2. 你是否使用最新版的Windows? Windows 10的話你亦應該更新到最新的版本（執筆時為1903），Windows 7 SP1、Windows 8.1亦應進行安全更新
     - Windows XP、Vista的安全更新已經停止並且有嚴重安全風險，應立即停用。
 3. 你有無安裝唔係正版的軟件？（安心版、淘寶買等等）
 4. 你有無安裝任何大陸軟件？（QQ、微信、360安全衛士、百度、金山毒霸、hao123等等）
+5. 啟用Windows Defender (可以使用非共產國家的防毒軟件，必須正版)
+6. 開啟Windows Firewall
 
-
-
+</details>
 
 ## 你現在應該立即加強你的電話保安: macOS篇
 
@@ -306,6 +330,8 @@
 ## 你現在應該立即加強你日常使用的網站、Apps保安
 
 ### 1. 保護你的密碼
+
+<details><summary>閱讀更多…</summary>
 
 #### 用密碼管理員製造超強密碼
 
@@ -340,11 +366,14 @@
 | KeePassXC 	| :white_check_mark: 	| Free                                     	| :white_check_mark: 	| :white_check_mark: 	| :white_check_mark:       	| :white_check_mark: 	| :white_check_mark: 	| :white_check_mark:   	|      	|
 | LastPass  	| :x:                	| Free                                     	| :white_check_mark: 	| :white_check_mark: 	| :white_check_mark:       	| :white_check_mark: 	| :white_check_mark: 	| :white_check_mark:   	|      	|
 
+</details>
+
 ### 2. 利用你的密碼管理員，立即更改所有網站、Apps的密碼
 
 例如連登, Facebook, Instagram, Google, 銀行等等
 
 ### 3. 使用2FA(多重認証)
+
 
 2FA可以保護你即使密碼被公開、破解，你的帳戶仍然安全，但切勿使用SMS，因不法機構可以截取SMS。我們建議使用App based OTP ，如[Authy](https://authy.com/download/)，[FreeOTP](https://freeotp.github.io/) 等
 
@@ -372,6 +401,8 @@
 
 ### Signal
 
+<details><summary>閱讀更多…</summary>
+
 ✅（適用於你信任的人，如親人、密友，而你們互相有對方電話）
 
 Signal為開源軟件計劃Open Whistper System的產品，著名洩密者斯諾登(Edward Snowden)正使用Signal作為主要通訊（[來源: Newsweek](https://www.newsweek.com/bad-news-fbi-edward-snowdens-favorite-chat-app-signal-just-got-50m-funding-816035)）。
@@ -391,7 +422,11 @@ Signal為開源軟件計劃Open Whistper System的產品，著名洩密者斯諾
 >
 > 原因是，Signal是全開源軟件，並且是非牟利機構。而WhatsApp的App並非開源，我們無法監察它如何使用已解密的訊息。
 
+</details>
+
 ### Telegram
+
+<details><summary>閱讀更多…</summary>
 
 Telegram是流行的即時通訊軟件，亦以加密見稱。而速度上、使用方便程度上、功能都是本文介紹的三款通訊軟件中最多、最強。
 
@@ -436,20 +471,31 @@ Telegram可以設定用戶名稱代替電話號碼增加聯絡人，適合與不
 9. 使用 Proxy 服務
     - Telegram 自建有 Proxy 功能，既可使用 Telegram 獨有嘅 MTProto 協議，亦都可使用 Socks5 協議。用家可以選擇購買 NordVPN、ProtonVPN 等匿名 VPN 供應商嘅服務，佢哋都支持 Socks5 協議進行 Proxy，有相關 IT 技能嘅用家，推薦自行 Set 伺服器架設 Proxy 服務，架設服務呢個會係後面嘅內容當中詳細講解。
 
+</details>
+
 ### Wire
+
+<details><summary>閱讀更多…</summary>
 
 如果你不想使用電話號碼註冊，可以使用[Wire](https://www.wire.com/)，它是一個比較偏向商業為主的通訊軟件。個人版是開源、免費的，亦有進行安全審計。
 
 你可以使用[ProtonMail](https://www.protonmail.com)登記一個匿名戶口，然後使用該電郵在[Wire](https://app.wire.com)的網頁版登記。
 
+</details>
 
 ### ProtonMail
+
+<details><summary>閱讀更多…</summary>
 
 如果你需要使用安全的電郵服務，可使用ProtonMail。經網頁版登記無需使用電話號碼驗証。
 
 > ❗️注意 <br> 只有ProtonMail相互間通訊才是點對點加密，如寄住GMail等只會使用傳輸層面加密。如有需要建議使用PGP加密才寄到這些地方，詳看進階指南
 
+</details>
+
 ### VPN
+
+<details><summary>閱讀更多…</summary>
 
 有信譽VPN能夠幫助你的通訊加密，防止有人讀取你的通訊內容。特別是你不信任的網絡（如免費的WiFi、GovWiFi等）
 
@@ -465,7 +511,8 @@ Telegram可以設定用戶名稱代替電話號碼增加聯絡人，適合與不
 - 使用非自建的VPN或收費的VPN
 - 切勿盡信VPN的宣傳，請自行衡量和比較各家VPN的服務商譽
 
-#### 考慮服務商的因素
+
+#### 考慮VPN服務商的因素
 
 - **聲稱「不留記錄」** 有不少的服務商聲稱無留記錄，緊記呢類型的聲稱無實質保障，可選擇有Auditing的公司。
 
@@ -478,6 +525,8 @@ Telegram可以設定用戶名稱代替電話號碼增加聯絡人，適合與不
 延伸閱讀
 
 - [EFF - Choosing the VPN That's Right for You](https://ssd.eff.org/en/module/choosing-vpn-thats-right-you)
+
+</details>
 
 ### ❌以下的通訊軟件切勿使用
 
