@@ -1,5 +1,23 @@
 # [IT文宣: 香港人科技自衛手冊(快速指南、懶人包)](https://github.com/cybersec-hk/digital_awareness_hk)
 
+## 頭盔
+
+近月香港出現不少因為網上活動而被一些不法機構進行白色恐佈。
+
+有見及此，一眾IT文宣小組以情境為本，為唔熟悉科技的香港同路人寫呢篇科技自衛手冊，當中包括如何應對不法機構和及早預防的措施。
+
+**最重要是，如果Touch Wood你瀨嘢，都唔會害到同路人做豬隊友。減低全面傷害。**
+
+保護自己，先可以保護同路人、守護香港，希望你可以廣傳、認同請分享。
+
+如果你係同行，有興趣幫手請先看貢獻指南，歡迎你fork, PR
+
+記得，網上現實也好，切勿完全盡信所有資訊，包括我們[cybersec-hk](https://github.com/cybersec-hk/)。所有資訊一定要經獨立思考才採納。本手冊會盡力引用來源、提供引伸閱讀供你參考。
+
+無一個教學可以保障你100%安全，百毒不侵，此手冊都一樣，只有靠自己經常fact check、保持批判思考、良好習慣。呢d無得懶架
+
+#目錄
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -59,39 +77,6 @@
 - [Contributors](#contributors)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-<!-- - 頭盔
-- 如果有執法機構突擊上門/截查，該怎麼辦？
-- 你現在應該立即加強你的電話保安: iOS篇
-- 你現在應該立即加強你的電話保安: Android篇
-- 你現在應該立即加強你的電腦保安: Windows篇
-- 你現在應該立即加強你的電話保安: macOS篇
-- 你現在應該立即加強你日常使用的網站、Apps保安
-- 如何為最壞情況作出打算？
-- 我而家需要係數碼世界消失，該怎麼做？
-- 設立安全通訊辦法
-- 如何安全、保密地儲存重要資料
-- 如何將重要資料公諸於世並避免被打壓
-- 如何清除你的數碼足跡(Digital Footprint)，免被起底？
-- 有用連結
-- 貢獻指南 -->
-
-## 頭盔
-
-近月香港出現不少因為網上活動而被一些不法機構進行白色恐佈。
-
-有見及此，一眾IT文宣小組以情境為本，為唔熟悉科技的香港同路人寫呢篇科技自衛手冊，當中包括如何應對不法機構和及早預防的措施。
-
-**最重要是，如果Touch Wood你瀨嘢，都唔會害到同路人做豬隊友。減低全面傷害。**
-
-保護自己，先可以保護同路人、守護香港，希望你可以廣傳、認同請分享。
-
-如果你係同行，有興趣幫手請先看貢獻指南，歡迎你fork, PR
-
-記得，網上現實也好，切勿完全盡信所有資訊，包括我們[cybersec-hk](https://github.com/cybersec-hk/)。所有資訊一定要經獨立思考才採納。本手冊會盡力引用來源、提供引伸閱讀供你參考。
-
-無一個教學可以保障你100%安全，百毒不侵，此手冊都一樣，只有靠自己經常fact check、保持批判思考、良好習慣。呢d無得懶架
-
 
 ## 如果有執法機構突擊上門/截查，該怎麼辦？
 
@@ -588,6 +573,26 @@ Facebook Messenger 通訊記錄中的相片及影片不能被主動清除，只�
 ## 如何清除你的數碼足跡(Digital Footprint)，免被起底？
 
 （待寫中，歡迎幫手加入IT文宣）
+
+## 如何簡易Fake Check幫你同身邊人避免被假消息伏你？
+
+<details><summary>閱讀更多…</summary>
+  
+  1. **要求直接証據** 如果有人聲稱任何野，你應該要求對方拎出直接的証據，如果對方只係從人地口中得知，你必須質疑其可信性。
+  2. **養成求証的習慣** 所有消息應該有引用的來源，你必需養成查找原文、來源的習慣，比較原文和你所收到的消息是否有所出入，而你亦最好跟多個有口碑的Factcheck網站查証。
+  3. **拒絕內容農場** 近年的內容農場、YouTubers為以取得網路瀏覽量或點擊率為目標賺取廣告收入，撰寫誤導、失實的垃圾內容，誘導你散播假消息。
+  4. **內容是否充滿煽情或刻意挑動你的情緒？** 多留意消息內容的用詞、文筆、訪問方式是否充滿偏見？如報章標題刻意譴責特定群體、訪問問題使用明顯帶有偏見的用詞，如明明沒有定性暴動卻用上暴徒字眼。這類形的內容大多赤化傳媒中出現。
+  5. **質疑你的消息來源** 多看其他的消息來源互相比對 有不少人聽到消息來自TVB、頭條日報等來源就選擇直接相信，但你有無考慮他們都只是代表其中一個觀點，而且他們的報道都可能暗中存在偏見？我們建議同一消息最好比較最少三個不同傳媒報導再自行判斷。
+
+你可以考慮安裝[「終結內容農場」的Chrome/Firefox 擴充套件](https://github.com/danny0838/content-farm-terminator)。這是一個由社群舉報的開源程式，有助你及早意識假消息的溫床。
+  
+  延伸閱讀
+  [LexisNexis](http://www.lexisnexis.com/pdf/nexis/Nexis-webinar-how-to-fact-check-like-a-pro.pdf)
+  [Forbes](https://www.forbes.com/sites/jaysondemers/2018/06/07/why-you-should-be-fact-checking-your-content-and-how-to-do-it/)
+  [Medium](https://medium.com/swlh/five-tips-for-fact-checking-your-content-17a0ae1d1bff)
+  [Politifact](https://www.politifact.com/truth-o-meter/article/2014/aug/20/7-steps-better-fact-checking/)
+  
+</details>
 
 ## 有用連結
 
