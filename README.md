@@ -1,4 +1,4 @@
-# [IT文宣: 香港人數碼安全手冊(快速指南、懶人包)](https://github.com/cybersec-hk/digital_awareness_hk)
+# [IT文宣: 香港人科技自衛手冊(快速指南、懶人包)](https://github.com/cybersec-hk/digital_awareness_hk)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
