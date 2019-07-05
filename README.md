@@ -18,10 +18,11 @@
   - [❗️如果你沒有辦法拖延或是被突然截停…](#%EF%B8%8F%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%B2%92%E6%9C%89%E8%BE%A6%E6%B3%95%E6%8B%96%E5%BB%B6%E6%88%96%E6%98%AF%E8%A2%AB%E7%AA%81%E7%84%B6%E6%88%AA%E5%81%9C)
   - [6. 事後處理](#6-%E4%BA%8B%E5%BE%8C%E8%99%95%E7%90%86)
 - [你現在應該立即加強你的電話保安: iOS篇](#%E4%BD%A0%E7%8F%BE%E5%9C%A8%E6%87%89%E8%A9%B2%E7%AB%8B%E5%8D%B3%E5%8A%A0%E5%BC%B7%E4%BD%A0%E7%9A%84%E9%9B%BB%E8%A9%B1%E4%BF%9D%E5%AE%89-ios%E7%AF%87)
+  - [基本篇](#%E5%9F%BA%E6%9C%AC%E7%AF%87)
     - [進階篇](#%E9%80%B2%E9%9A%8E%E7%AF%87)
 - [你現在應該立即加強你的電話保安: Android篇](#%E4%BD%A0%E7%8F%BE%E5%9C%A8%E6%87%89%E8%A9%B2%E7%AB%8B%E5%8D%B3%E5%8A%A0%E5%BC%B7%E4%BD%A0%E7%9A%84%E9%9B%BB%E8%A9%B1%E4%BF%9D%E5%AE%89-android%E7%AF%87)
-  - [基本](#%E5%9F%BA%E6%9C%AC)
-  - [進階](#%E9%80%B2%E9%9A%8E)
+  - [基本篇](#%E5%9F%BA%E6%9C%AC%E7%AF%87-1)
+  - [進階篇](#%E9%80%B2%E9%9A%8E%E7%AF%87-1)
 - [你現在應該立即加強你的電腦保安: Windows篇](#%E4%BD%A0%E7%8F%BE%E5%9C%A8%E6%87%89%E8%A9%B2%E7%AB%8B%E5%8D%B3%E5%8A%A0%E5%BC%B7%E4%BD%A0%E7%9A%84%E9%9B%BB%E8%85%A6%E4%BF%9D%E5%AE%89-windows%E7%AF%87)
 - [你現在應該立即加強你的電話保安: macOS篇](#%E4%BD%A0%E7%8F%BE%E5%9C%A8%E6%87%89%E8%A9%B2%E7%AB%8B%E5%8D%B3%E5%8A%A0%E5%BC%B7%E4%BD%A0%E7%9A%84%E9%9B%BB%E8%A9%B1%E4%BF%9D%E5%AE%89-macos%E7%AF%87)
 - [你現在應該立即加強你日常使用的網站、Apps保安](#%E4%BD%A0%E7%8F%BE%E5%9C%A8%E6%87%89%E8%A9%B2%E7%AB%8B%E5%8D%B3%E5%8A%A0%E5%BC%B7%E4%BD%A0%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84%E7%B6%B2%E7%AB%99apps%E4%BF%9D%E5%AE%89)
@@ -44,16 +45,18 @@
   - [VPN](#vpn)
     - [考慮服務商的因素](#%E8%80%83%E6%85%AE%E6%9C%8D%E5%8B%99%E5%95%86%E7%9A%84%E5%9B%A0%E7%B4%A0)
   - [❌以下的通訊軟件切勿使用](#%E4%BB%A5%E4%B8%8B%E7%9A%84%E9%80%9A%E8%A8%8A%E8%BB%9F%E4%BB%B6%E5%88%87%E5%8B%BF%E4%BD%BF%E7%94%A8)
-    - [微信](#%E5%BE%AE%E4%BF%A1)
-    - [微博](#%E5%BE%AE%E5%8D%9A)
-    - [抖音(aka Tiktok)](#%E6%8A%96%E9%9F%B3aka-tiktok)
+    - [微信 WeChat](#%E5%BE%AE%E4%BF%A1-wechat)
+    - [微博 Weibo](#%E5%BE%AE%E5%8D%9A-weibo)
+    - [抖音 Tiktok](#%E6%8A%96%E9%9F%B3-tiktok)
     - [SMS](#sms)
-    - [Facebook Messenger](#Facebook%20Messenger)
+    - [Facebook Messenger](#facebook-messenger)
 - [如何安全、保密地儲存重要資料](#%E5%A6%82%E4%BD%95%E5%AE%89%E5%85%A8%E4%BF%9D%E5%AF%86%E5%9C%B0%E5%84%B2%E5%AD%98%E9%87%8D%E8%A6%81%E8%B3%87%E6%96%99)
 - [如何將重要資料公諸於世並避免被打壓](#%E5%A6%82%E4%BD%95%E5%B0%87%E9%87%8D%E8%A6%81%E8%B3%87%E6%96%99%E5%85%AC%E8%AB%B8%E6%96%BC%E4%B8%96%E4%B8%A6%E9%81%BF%E5%85%8D%E8%A2%AB%E6%89%93%E5%A3%93)
 - [如何清除你的數碼足跡(Digital Footprint)，免被起底？](#%E5%A6%82%E4%BD%95%E6%B8%85%E9%99%A4%E4%BD%A0%E7%9A%84%E6%95%B8%E7%A2%BC%E8%B6%B3%E8%B7%A1digital-footprint%E5%85%8D%E8%A2%AB%E8%B5%B7%E5%BA%95)
 - [有用連結](#%E6%9C%89%E7%94%A8%E9%80%A3%E7%B5%90)
+- [建議或聯絡我們](#%E5%BB%BA%E8%AD%B0%E6%88%96%E8%81%AF%E7%B5%A1%E6%88%91%E5%80%91)
 - [貢獻指南](#%E8%B2%A2%E7%8D%BB%E6%8C%87%E5%8D%97)
+- [Contributors](#contributors)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -75,24 +78,28 @@
 
 ## 頭盔
 
-本不專業簡單安全手冊既目的係提升大家對數碼資訊既安全意識。當中大部份資訊都係盡量簡化，令到唔了解IT既同路人都可以保護好自己。假如唔好彩中左招，都可以保護其他同路人，減低他人風險。
+本不專業簡單安全手冊既目的係提升大家對數碼資訊既安全意識。當中大部份資訊都係盡量簡化，令到唔了解IT既同路人都可以保護好自己。<span style="color:red">假如唔好彩中左招，都可以保護其他同路人，減低他人風險。</span>
 
-網上安全首先要對所有信訊及人抱懷疑心態，包括我們@cybersec-hk，直至核實。
+網上安全首先要對所有信訊及人抱懷疑心態，包括我們[cybersec-hk](https://github.com/cybersec-hk/)，直至核實。
 以下內容會盡量提供引用及延伸閱讀，但不能確保完全正確，無一個設定、教學能令你的電話、電腦百毒不侵，保持良好使用習慣先係最佳的數碼自衛。請做你應盡的責任：Fact Check
 
 本手冊依照五大防衛目標，情境為本方式編寫，以便唔熟科技產品的同路人閱讀:
 
-1) 不留痕跡
-2) 資料保密
-3) 防止追蹤
-4) 系統安全
-5) 緊急應變
-
-
-進階版請看此
-
+1. 不留痕跡
+2. 資料保密
+3. 防止追蹤
+4. 系統安全
+5. 緊急應變
 
 ## 如果有執法機構突擊上門/截查，該怎麼辦？
+
+### TL;DR
+
+1. 拖
+2. 清電話
+3. 絕對不可以解鎖電話或電腦
+4. 「我無嘢講」
+5. 聯絡律師
 
 ### 1. 盡量拖延開門
 ### 2. 緊急清除電話
@@ -103,7 +110,10 @@
     1. 點一下「設定」>「一般」>「重置」
     2. 然後點一下「清除所有內容和設定」。
 ```
-[Citation : How to erase your iPhone, iPad, or iPod touch](https://support.apple.com/en-us/HT201274)
+
+延伸閱讀
+
+- [How to erase your iPhone, iPad, or iPod touch](https://support.apple.com/en-us/HT201274)
 
 #### Android:
 
@@ -115,7 +125,10 @@
     4. 如要將裝置內部儲存空間的所有資料清除，請輕觸 [全部清除]。
     5. 拆出SD卡銷毀
 ```
-[Citation : Reset your Android device to factory settings](https://support.google.com/android/answer/6088915?hl=en)
+
+延伸閱讀
+
+- [Reset your Android device to factory settings](https://support.google.com/android/answer/6088915?hl=en)
 
 ### 3. 登出、鎖定電腦
 
@@ -176,6 +189,8 @@
 
 ### ❗️如果你沒有辦法拖延或是被突然截停…
 
+<details><summary>閱讀更多…</summary>
+
 1. 立即鎖上手機
 
     **iOS**：`緊按電源和音量鍵，緊急停用TouchID或FaceID(iPhone 6前則是連按電源鍵5次)`
@@ -194,6 +209,8 @@
 
     並沒有錯誤輸入密碼會清除的功能。必要時關機。
 
+</details>
+
 ### 6. 事後處理
 1. 通知你的朋友、同路人你的情況，叫他們立即清除數碼足跡（詳看下文）
 2. 從數碼世界消失（詳看下文）
@@ -202,12 +219,17 @@
     - **Android** : 登入[Google](https://android.com/find)遙距清除
 4. 找可以信任的人，立即建立安全通訊方法
 
-[Citation - Apple](https://support.apple.com/kb/ph2701?locale=en_US)<br>
-[Citation - Google](https://support.google.com/accounts/answer/6160491?hl=en)
+延伸閱讀
 
+- [Apple](https://support.apple.com/kb/ph2701?locale=en_US)
+- [Google](https://support.google.com/accounts/answer/6160491?hl=en)
 
 ## 你現在應該立即加強你的電話保安: iOS篇
 本文譯自德州大學訊息安全中心的[指引](https://security.utexas.edu/handheld-hardening-checklists/ios)及[DuckDuckGo Security Blog](https://spreadprivacy.com/iphone-privacy-tips/)並加以修改。
+
+### 基本篇
+
+<details><summary>閱讀更多…</summary>
 
 1. 更新到最新的iOS版本 **（注意：唔係Beta或開發
 版本）**
@@ -234,16 +256,24 @@
 19. 如果你沒有使用VPN，建議安裝[1.1.1.1 App](https://1.1.1.1/)
 20. 考慮使用有信譽的VPN服務
 
+</details>
+
 #### 進階篇
+
+<details><summary>閱讀更多…</summary>
 
 1. 根據[Apple Transparency Report](https://www.apple.com/legal/transparency/hk.html)，香港政府在2018年7月至2018年12月528次要求Apple交出數據，而當中Apple有70.8%提供了最少部份資料。iOS只有Apple，請自行判斷。
 2. 留意：單靠密碼和全手機加密未足以保障，以色列鑑証公司Cellbrite開發了一個名為UFED的工具可破解各個最新的電話。[原文](https://www.techradar.com/news/new-law-enforcement-hacking-tool-can-unlock-most-iphone-android-handsets)，[Cellebrite UFED Premium廣告](https://www.cellebrite.com/en/ufed-premium/)。如果你被執法機構要求解鎖，**請務必拒絕並設法清除資料**（不小心地輸入十次錯誤密碼）
+
+</details>
 
 ## 你現在應該立即加強你的電話保安: Android篇
 
 本文譯自德州大學訊息安全中心的[指引](https://security.utexas.edu/handheld-hardening-checklists/android)及[DuckDuckGo Security Blog](https://spreadprivacy.com/android-privacy-tips/)並加以修改。
 
-### 基本
+### 基本篇
+
+<details><summary>閱讀更多…</summary>
 
 1. 大陸品牌全部不了，包括但不限於：華為，小米，中興，步步高（Oppo），魅族。[更多](https://en.wikipedia.org/wiki/Mobile_phone_industry_in_China#Major_mobile_phone_manufacturers)
 2. 更新到最新的OS版本。
@@ -258,14 +288,40 @@
 11. 關閉定位服務
 12. 關閉USB除錯功能
 
-### 進階
+</details>
+
+### 進階篇
+
+<details><summary>閱讀更多…</summary>
 
 1. 考慮使用有信譽的VPN服務
 2. 避免使用Google的服務。根據[Google Transparency Report](https://transparencyreport.google.com/user-data/overview?t=table&user_requests_report_period=series:requests,accounts;authority:HK;time:&lu=user_requests_report_period)，香港政府在2018年7月至2018年12月87次要求Google交出數據，而當中Google有52%提供了最少部份資料。
 
+</details>
+
+
 ## 你現在應該立即加強你的電腦保安: Windows篇
 
-（待寫中，歡迎幫手加入IT文宣）
+> ❗️根據[Forbes](https://www.forbes.com/sites/daveywinder/2019/03/01/researchers-confirm-ongoing-problem-with-windows-10-updates/#7fbfd8a09af3)、[Privacytools.io](https://www.privacytools.io/operating-systems/#win10)等文章，Windows 10的私隱保護非常之差。為了減低風險，我們強烈建議你不要使用Windows上處理敏感資訊或通訊。我們建議你使用其他沒有使用Windows的設備，如iPad、電話。
+> 
+> 如果你是進階使用者，可考慮改用Linux。
+
+以下的加強保安未必能保護你免除不法機構的監控，只能作參考用途。
+
+### 基本檢查
+
+<details><summary>閱讀更多…</summary>
+
+1. 你是否使用正版的Windows，係從官方授權方式下載，唔係淘寶買key、或安裝過免啟用等等破解程式？
+    - 如果唔係，你必須全面清除電腦，並安裝正版、無破解的系統
+2. 你是否使用最新版的Windows? Windows 10的話你亦應該更新到最新的版本（執筆時為1903），Windows 7 SP1、Windows 8.1亦應進行安全更新
+    - Windows XP、Vista的安全更新已經停止並且有嚴重安全風險，應立即停用。
+3. 你有無安裝唔係正版的軟件？（安心版、淘寶買等等）
+4. 你有無安裝任何大陸軟件？（QQ、微信、360安全衛士、百度、金山毒霸、hao123等等）
+5. 啟用Windows Defender (可以使用非共產國家的防毒軟件，必須正版)
+6. 開啟Windows Firewall
+
+</details>
 
 ## 你現在應該立即加強你的電話保安: macOS篇
 
@@ -274,6 +330,8 @@
 ## 你現在應該立即加強你日常使用的網站、Apps保安
 
 ### 1. 保護你的密碼
+
+<details><summary>閱讀更多…</summary>
 
 #### 用密碼管理員製造超強密碼
 
@@ -308,15 +366,21 @@
 | KeePassXC 	| :white_check_mark: 	| Free                                     	| :white_check_mark: 	| :white_check_mark: 	| :white_check_mark:       	| :white_check_mark: 	| :white_check_mark: 	| :white_check_mark:   	|      	|
 | LastPass  	| :x:                	| Free                                     	| :white_check_mark: 	| :white_check_mark: 	| :white_check_mark:       	| :white_check_mark: 	| :white_check_mark: 	| :white_check_mark:   	|      	|
 
+</details>
+
 ### 2. 利用你的密碼管理員，立即更改所有網站、Apps的密碼
 
 例如連登, Facebook, Instagram, Google, 銀行等等
 
 ### 3. 使用2FA(多重認証)
 
+
 2FA可以保護你即使密碼被公開、破解，你的帳戶仍然安全，但切勿使用SMS，因不法機構可以截取SMS。我們建議使用App based OTP ，如[Authy](https://authy.com/download/)，[FreeOTP](https://freeotp.github.io/) 等
 
-[Citation: SS7 vulnerabilities and attack exposure report, 2018](https://www.ptsecurity.com/ww-en/analytics/ss7-vulnerability-2018/)
+延伸閱讀
+
+- [有提供2FA服務的Database及教學](https://twofactorauth.org/)
+- [SS7 vulnerabilities and attack exposure report, 2018](https://www.ptsecurity.com/ww-en/analytics/ss7-vulnerability-2018/)
 
 ## 如何為最壞情況作出打算？
 
@@ -337,6 +401,8 @@
 
 ### Signal
 
+<details><summary>閱讀更多…</summary>
+
 ✅（適用於你信任的人，如親人、密友，而你們互相有對方電話）
 
 Signal為開源軟件計劃Open Whistper System的產品，著名洩密者斯諾登(Edward Snowden)正使用Signal作為主要通訊（[來源: Newsweek](https://www.newsweek.com/bad-news-fbi-edward-snowdens-favorite-chat-app-signal-just-got-50m-funding-816035)）。
@@ -356,7 +422,11 @@ Signal為開源軟件計劃Open Whistper System的產品，著名洩密者斯諾
 >
 > 原因是，Signal是全開源軟件，並且是非牟利機構。而WhatsApp的App並非開源，我們無法監察它如何使用已解密的訊息。
 
+</details>
+
 ### Telegram
+
+<details><summary>閱讀更多…</summary>
 
 Telegram是流行的即時通訊軟件，亦以加密見稱。而速度上、使用方便程度上、功能都是本文介紹的三款通訊軟件中最多、最強。
 
@@ -401,20 +471,31 @@ Telegram可以設定用戶名稱代替電話號碼增加聯絡人，適合與不
 9. 使用 Proxy 服務
     - Telegram 自建有 Proxy 功能，既可使用 Telegram 獨有嘅 MTProto 協議，亦都可使用 Socks5 協議。用家可以選擇購買 NordVPN、ProtonVPN 等匿名 VPN 供應商嘅服務，佢哋都支持 Socks5 協議進行 Proxy，有相關 IT 技能嘅用家，推薦自行 Set 伺服器架設 Proxy 服務，架設服務呢個會係後面嘅內容當中詳細講解。
 
+</details>
+
 ### Wire
+
+<details><summary>閱讀更多…</summary>
 
 如果你不想使用電話號碼註冊，可以使用[Wire](https://www.wire.com/)，它是一個比較偏向商業為主的通訊軟件。個人版是開源、免費的，亦有進行安全審計。
 
 你可以使用[ProtonMail](https://www.protonmail.com)登記一個匿名戶口，然後使用該電郵在[Wire](https://app.wire.com)的網頁版登記。
 
+</details>
 
 ### ProtonMail
+
+<details><summary>閱讀更多…</summary>
 
 如果你需要使用安全的電郵服務，可使用ProtonMail。經網頁版登記無需使用電話號碼驗証。
 
 > ❗️注意 <br> 只有ProtonMail相互間通訊才是點對點加密，如寄住GMail等只會使用傳輸層面加密。如有需要建議使用PGP加密才寄到這些地方，詳看進階指南
 
+</details>
+
 ### VPN
+
+<details><summary>閱讀更多…</summary>
 
 有信譽VPN能夠幫助你的通訊加密，防止有人讀取你的通訊內容。特別是你不信任的網絡（如免費的WiFi、GovWiFi等）
 
@@ -430,7 +511,8 @@ Telegram可以設定用戶名稱代替電話號碼增加聯絡人，適合與不
 - 使用非自建的VPN或收費的VPN
 - 切勿盡信VPN的宣傳，請自行衡量和比較各家VPN的服務商譽
 
-#### 考慮服務商的因素
+
+#### 考慮VPN服務商的因素
 
 - **聲稱「不留記錄」** 有不少的服務商聲稱無留記錄，緊記呢類型的聲稱無實質保障，可選擇有Auditing的公司。
 
@@ -440,33 +522,39 @@ Telegram可以設定用戶名稱代替電話號碼增加聯絡人，適合與不
 
 - **賺錢方式** 免費營運的如果不是依賴出賣用戶資料為生，是不是依賴捐款？定還是免費使用有大量限制？
 
+延伸閱讀
 
-[延伸閱讀](https://ssd.eff.org/en/module/choosing-vpn-thats-right-you)
+- [EFF - Choosing the VPN That's Right for You](https://ssd.eff.org/en/module/choosing-vpn-thats-right-you)
+
+</details>
 
 ### ❌以下的通訊軟件切勿使用
 
-#### 微信
+#### 微信 WeChat
+
 根據[BBC](https://www.bbc.com/news/blogs-china-blog-48552907) 和[國際特赦組織](https://www.amnesty.org/en/latest/campaigns/2016/10/which-messaging-apps-best-protect-your-privacy/)，微信係由中國的騰信公司營運，管理，所以受到中國政府的嚴密監控。
 
 微信的通訊只有經過TLS級別加密，因此在伺服器上的訊息能夠被微信或執法機關閱讀。
 
 >Tencent owns the two most popular messaging apps in China, WeChat and QQ, and is bottom of our message privacy scorecard, scoring zero out of 100. Not only did it fail to adequately meet any of the criteria, but it was the only company which has not stated publicly that it will not grant government requests to access encrypted messages by building a “backdoor”.
 
-#### 微博
+#### 微博 Weibo
 
 新浪微博、騰訊微博等平台多次「河蟹」被中國政府機關指示下刪除不魔利政府的發文，而其實名制的會員制度亦被用以打壓發文者。
 
-#### 抖音(aka Tiktok)
+#### 抖音 Tiktok
 
 抖音為中國的社交平台、類似美國的Snapchat，其「河蟹」方式亦與上述的社交平台相似。
 
 #### SMS
 
 切勿使用 SMS，因不法機構可以截取 SMS。
-[Wired: So Hey You Should Stop Using Texts for Two-Factor Authentication](https://www.wired.com/2016/06/hey-stop-using-texts-two-factor-authentication/)
 
 政府等國家級暴力機器可以通過 ISP 截取手提電話認證號碼，以達到繞過二次認證登入任意用家嘅戶口，而有心人士事實上通過 Osmocom 等開放原始碼嘅 SDR 程式，可以實現自行部署 GSM 基站，劫持周邊手提電話網路，都可以非常輕鬆實現截取訊息。
 
+延伸閱讀
+
+- [Wired: So Hey You Should Stop Using Texts for Two-Factor Authentication](https://www.wired.com/2016/06/hey-stop-using-texts-two-factor-authentication/)
 
 #### Facebook Messenger
 
@@ -492,9 +580,12 @@ Facebook Messenger 通訊記錄中的相片及影片不能被主動清除，只�
 - [Reddit /r/privacy/ (英文)](https://www.reddit.com/r/privacy/)
 
 ## 建議或聯絡我們
-你可以在Issues聯絡我們
+
+你可以在[Issues](https://github.com/cybersec-hk/digital_awareness_hk/issues)聯絡我們
 有需要的話請使用PGP加密
-我們的Public Key如下：
+
+<details><summary>我們的Public Key如下：</summary>
+<p>
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -551,4 +642,11 @@ jLaYn4VBgvJeIleK7OPExK6LFGO+gKaOhPmSFy9wNM8=
 
 ```
 
-## [貢獻指南](https://www.contribution-guide.org/)
+</p>
+</details>
+
+## [貢獻指南](.github/CONTRIBUTING.md)
+
+## Contributors
+
+- [@savehkcyber](https://github.com/savehkcyber)([https://t.me/securehk](https://t.me/securehk))
