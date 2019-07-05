@@ -572,6 +572,14 @@ jLaYn4VBgvJeIleK7OPExK6LFGO+gKaOhPmSFy9wNM8=
 </p>
 </details>
 
+## 身份保密
+
+非常時期，請小心安全。
+
+- 請確保commit log和PR內容不含任何可以追踪到個人身份的資料
+- 如有需要，請使用太空GitHub帳號加VPN。
+- 如有需要，請使用PGP加密內容。請參考[README](https://github.com/cybersec-hk/digital_awareness_hk#%E5%BB%BA%E8%AD%B0%E6%88%96%E8%81%AF%E7%B5%A1%E6%88%91%E5%80%91)及交換PGP方便我地聯絡返。
+
 ## [貢獻指南](https://www.contribution-guide.org/)
 
 ## Contributors
