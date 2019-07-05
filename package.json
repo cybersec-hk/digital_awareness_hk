@@ -5,7 +5,7 @@
     "doctoc": "^1.4.0"
   },
   "scripts": {
-    "doc": "doctoc . --notitle --github && git add *.md"
+    "doc": "doctoc . --notitle --github --maxlevel 3 && git add *.md"
   },
   "repository": {
     "type": "git",

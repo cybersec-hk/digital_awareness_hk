@@ -3,6 +3,7 @@
 
 
 - [如何貢獻](#%E5%A6%82%E4%BD%95%E8%B2%A2%E7%8D%BB)
+- [篇寫方針](#%E7%AF%87%E5%AF%AB%E6%96%B9%E9%87%9D)
 - [身份保密](#%E8%BA%AB%E4%BB%BD%E4%BF%9D%E5%AF%86)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
