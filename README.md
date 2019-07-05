@@ -48,6 +48,7 @@
     - [微博](#%E5%BE%AE%E5%8D%9A)
     - [抖音(aka Tiktok)](#%E6%8A%96%E9%9F%B3aka-tiktok)
     - [SMS](#sms)
+    - [Facebook Messenger](#Facebook%20Messenger)
 - [如何安全、保密地儲存重要資料](#%E5%A6%82%E4%BD%95%E5%AE%89%E5%85%A8%E4%BF%9D%E5%AF%86%E5%9C%B0%E5%84%B2%E5%AD%98%E9%87%8D%E8%A6%81%E8%B3%87%E6%96%99)
 - [如何將重要資料公諸於世並避免被打壓](#%E5%A6%82%E4%BD%95%E5%B0%87%E9%87%8D%E8%A6%81%E8%B3%87%E6%96%99%E5%85%AC%E8%AB%B8%E6%96%BC%E4%B8%96%E4%B8%A6%E9%81%BF%E5%85%8D%E8%A2%AB%E6%89%93%E5%A3%93)
 - [如何清除你的數碼足跡(Digital Footprint)，免被起底？](#%E5%A6%82%E4%BD%95%E6%B8%85%E9%99%A4%E4%BD%A0%E7%9A%84%E6%95%B8%E7%A2%BC%E8%B6%B3%E8%B7%A1digital-footprint%E5%85%8D%E8%A2%AB%E8%B5%B7%E5%BA%95)
@@ -101,8 +102,8 @@
 ```
     1. 點一下「設定」>「一般」>「重置」
     2. 然後點一下「清除所有內容和設定」。
-``` 
-[Citation : How to erase your iPhone, iPad, or iPod touch](https://support.apple.com/en-us/HT201274) 
+```
+[Citation : How to erase your iPhone, iPad, or iPod touch](https://support.apple.com/en-us/HT201274)
 
 #### Android:
 
@@ -120,9 +121,9 @@
 
 **(注意：如果你本身沒有設定密碼的話，此步驟並沒有作用的，建議立即銷毀電腦)**
 
-#### Windows: 
+#### Windows:
 `Windows鍵 + L`（鎖定電腦）
-#### macOS: 
+#### macOS:
 `Command + Option + Shift + Q`（即時登出）
 
 ### 4. 如果執法人員要求解鎖電話或電腦，一定要堅持拒絕。
@@ -329,9 +330,9 @@
 
 > **⚠️留意** <br>
 > 根據[EFF刊登的文章](https://www.eff.org/deeplinks/2018/03/why-we-cant-give-you-recommendation)，無任何一個即時通訊軟件能夠提供完美的安全通訊（特別是你自行解鎖電話俾不法機構的話，所有保護方法都會失效）
-> 
+>
 > **單憑安裝安全的通訊軟件並不代表無後顧之憂！**
-> 
+>
 > 我地係度提供的建議只係方便你設立相對安全的通訊，請緊記時刻保持警覺才是最備自衛方法。
 
 ### Signal
@@ -383,10 +384,22 @@ Telegram可以設定用戶名稱代替電話號碼增加聯絡人，適合與不
 
     - 有關Secret Chat有何分別，請[詳閱Telegram網站](https://telegram.org/faq#secret-chats)
     - End-to-End（點對點）加密和TLS（傳輸層面）加密的分別，請[詳看EFF網站](https://ssd.eff.org/en/module/what-should-i-know-about-encryption)
-2. 設定第二密碼 `Privacy & Security > Passcode & Touch ID`
-3. 設定Passcode（不要和電話相同), 關閉Touch ID登入`Privacy & Security > Two-Step Verification`
-4. `Privacy & Security > Voice Call > Peer-to-Peer > 設定"Nobody"`
-5. `Privacy & Security > Delect My Account if away for ... > 設定 "1 month" `
+2. 關閉 Touch ID/Face ID 登入
+    - `Privacy & Security >> Passcode & Touch ID`，將 Unlock with Touch ID/Face ID 選項關閉。
+3. 啟動二次認證密碼
+    - `Setting>>Privacy and Security>>Two-Step Verification>>Set Additional Password`，然後輸入高強度嘅密碼，⚠️唔好同自己其他網站以及 App 嘅密碼相同，有可能存在他人侵入其他目標並得知你嘅密碼，然後使用密碼進行“碰撞”，就可能會登入到你嘅戶口。Add a Hint 嘅環節建議大家唔好填寫真實嘅提示，直接 Skip，等侵入者無法得知密碼意義。Recovery Email 同樣唔建議進行設置，直接 Skip，若電郵戶口安全出現問題，Telegram 將會一齊出事
+4. 關閉手提電話號碼顯示
+    - `Setting >> Privacy and Security >> Phone Number，設定 Nobody。`
+5. 關閉視訊通話
+    - `Privacy & Security >> Voice Call >> Peer-to-Peer > 設定"Nobody"`
+6. 設置戶口銷毀時間
+    - `Privacy & Security > Delect My Account if away for ... > 設定 "1 month" `
+7. 關閉電話簿同步
+    - `Setting>>Privacy and Security>>Data Settings`，選擇 `Delete Synced Contacts` 及關閉 `Sync Contacts` 選項，當用家開啟電話簿同步，即使冇進行會話及添加，有你手提電話號碼嘅人都會係聯繫人列表睇到你個戶口。
+8. 關閉 Link Previews
+    - `Setting>>Privacy and Security>>Data Settings`，關閉最下面嘅 `Link Previews` 功能。程式自動預覽 Link 有可能會係無留意嘅情況下，被精心構造嘅 XSS（Cross-site Scripting）跨網站指令碼漏洞追蹤到用家嘅個人資訊。
+9. 使用 Proxy 服務
+    - Telegram 自建有 Proxy 功能，既可使用 Telegram 獨有嘅 MTProto 協議，亦都可使用 Socks5 協議。用家可以選擇購買 NordVPN、ExpressVPN 等匿名 VPN 供應商嘅服務，佢哋都支持 Socks5 協議進行 Proxy，有相關 IT 技能嘅用家，推薦自行 Set 伺服器架設 Proxy 服務，架設服務呢個會係後面嘅內容當中詳細講解。
 
 ### Wire
 
@@ -449,9 +462,15 @@ Telegram可以設定用戶名稱代替電話號碼增加聯絡人，適合與不
 
 #### SMS
 
-切勿使用SMS，因不法機構可以截取SMS 
+切勿使用 SMS，因不法機構可以截取 SMS。
 [Wired: So Hey You Should Stop Using Texts for Two-Factor Authentication](https://www.wired.com/2016/06/hey-stop-using-texts-two-factor-authentication/)
 
+政府等國家級暴力機器可以通過 ISP 截取手提電話認證號碼，以達到繞過二次認證登入任意用家嘅戶口，而有心人士事實上通過 Osmocom 等開放原始碼嘅 SDR 程式，可以實現自行部署 GSM 基站，劫持周邊手提電話網路，都可以非常輕鬆實現截取訊息。
+
+
+#### Facebook Messenger
+
+Facebook Messenger 通訊記錄中的相片及影片不能被主動清除，只能等待一定時間之後，由 Facebook 清除，故存在被抄家嘅危險。請唔好使用。
 
 ## 如何安全、保密地儲存重要資料
 
