@@ -14,6 +14,19 @@
 - [英文](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
 - [警告：非正體中文](https://help.github.com/cn/articles/creating-a-pull-request-from-a-fork)
 
+
+# 篇寫方針
+
+由於手冊係給唔熟科技既人睇，務必顯淺易明。而且請盡量情景為本同圍繞五大方針：
+
+1. 不留痕跡
+2. 資料保密
+3. 防止追蹤
+4. 系統安全
+5. 緊急應變
+
+
+
 # 身份保密
 
 非常時期，請小心安全。
