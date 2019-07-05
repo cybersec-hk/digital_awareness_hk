@@ -93,6 +93,14 @@
 
 ## 如果有執法機構突擊上門/截查，該怎麼辦？
 
+### TL;DR
+
+1. 拖
+2. 清電話
+3. 絕對不可以解鎖電話或電腦
+4. 「我無嘢講」
+5. 聯絡律師
+
 ### 1. 盡量拖延開門
 ### 2. 緊急清除電話
 
@@ -273,7 +281,23 @@
 
 ## 你現在應該立即加強你的電腦保安: Windows篇
 
-（待寫中，歡迎幫手加入IT文宣）
+> ❗️根據[Forbes](https://www.forbes.com/sites/daveywinder/2019/03/01/researchers-confirm-ongoing-problem-with-windows-10-updates/#7fbfd8a09af3)、[Privacytools.io](https://www.privacytools.io/operating-systems/#win10)等文章，Windows 10的私隱保護非常之差。為了減低風險，我們強烈建議你不要使用Windows上處理敏感資訊或通訊。我們建議你使用其他沒有使用Windows的設備，如iPad、電話。
+> 
+> 如果你是進階使用者，可考慮改用Linux。
+
+以下的加強保安未必能保護你免除不法機構的監控，只能作參考用途。
+
+### 基本檢查
+
+1. 你是否使用正版的Windows，係從官方授權方式下載，唔係淘寶買key、或安裝過免啟用等等破解程式？
+    - 如果唔係，你必須全面清除電腦，並安裝正版、無破解的系統
+2. 你是否使用最新版的Windows? Windows 10的話你亦應該更新到最新的版本（執筆時為1903），Windows 7 SP1、Windows 8.1亦應進行安全更新
+    - Windows XP、Vista的安全更新已經停止並且有嚴重安全風險，應立即停用。
+3. 你有無安裝唔係正版的軟件？（安心版、淘寶買等等）
+4. 你有無安裝任何大陸軟件？（QQ、微信、360安全衛士、百度、金山毒霸、hao123等等）
+
+
+
 
 ## 你現在應該立即加強你的電話保安: macOS篇
 
@@ -571,14 +595,6 @@ jLaYn4VBgvJeIleK7OPExK6LFGO+gKaOhPmSFy9wNM8=
 
 </p>
 </details>
-
-## 身份保密
-
-非常時期，請小心安全。
-
-- 請確保commit log和PR內容不含任何可以追踪到個人身份的資料
-- 如有需要，請使用太空GitHub帳號加VPN。
-- 如有需要，請使用PGP加密內容。請參考[README](https://github.com/cybersec-hk/digital_awareness_hk#%E5%BB%BA%E8%AD%B0%E6%88%96%E8%81%AF%E7%B5%A1%E6%88%91%E5%80%91)及交換PGP方便我地聯絡返。
 
 ## [貢獻指南](https://www.contribution-guide.org/)
 
