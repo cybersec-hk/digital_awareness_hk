@@ -645,7 +645,7 @@ jLaYn4VBgvJeIleK7OPExK6LFGO+gKaOhPmSFy9wNM8=
 </p>
 </details>
 
-## [貢獻指南](https://www.contribution-guide.org/)
+## [貢獻指南](.github/CONTRIBUTING.md)
 
 ## Contributors
 
