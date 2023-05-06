@@ -2,7 +2,7 @@
   "name": "digital_awareness_hk",
   "description": "IT文宣: 香港人數碼安全手冊",
   "devDependencies": {
-    "doctoc": "^1.4.0"
+    "doctoc": "^2.2.1"
   },
   "scripts": {
     "doc": "doctoc . --notitle --github && git add *.md"
